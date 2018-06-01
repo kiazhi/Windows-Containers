@@ -9,7 +9,7 @@ LABEL \
     org.label-schema.url="https://nodejs.org" \
     org.label-schema.maintainer.name="Ryen Kia Zhi Tang" \
     org.label-schema.vcs-url="https://github.com/kiazhi/Windows-Containers"\
-    org.label-schema.docker.cmd="docker run --name $CONTAINER -t -d nanoserver-nodejs:latest" \
+    org.label-schema.docker.cmd="docker run --name $CONTAINER -t -d nanoserver.nodejs:latest" \
     org.label-schema.docker.cmd.test="docker exec $CONTAINER node --version" \
     org.label-schema.docker.cmd.debug="docker exec -it $CONTAINER powershell" \
     org.label-schema.docker.docker.cmd.help="docker exec $CONTAINER node --help" \
