@@ -73,7 +73,7 @@ RUN node \
 RUN npm \
         --version
 
-# Remove environment variables from the build image
+# Remove temporary items from the build image
 RUN \
     Remove-Item \
         -Path 'C:\\Temp' \
