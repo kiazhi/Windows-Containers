@@ -15,9 +15,13 @@ LABEL \
     org.label-schema.docker.docker.cmd.help="docker exec $CONTAINER node --help" \
     org.label-schema.docker.params="MYSQL_VERSION=version number"
 
-ARG MYSQL_VERSION=5.7.22
+ARG MYSQL_VERSION=8.0.11
 
 SHELL ["powershell", "-Command"]
+
+COPY msvcp140.dll /Windows/System32/
+
+COPY vcruntime140.dll /Windows/System32/
 
 RUN \
     if(!(Test-Path -Path 'C:\Temp')) \
@@ -75,7 +79,7 @@ RUN \
         -Name MySQL \
         -Verbose ;
 
-# Remove environment variables from the build image
+# Remove temporary items from the build image
 RUN \
     Remove-Item \
         -Path 'C:\\Temp' \
