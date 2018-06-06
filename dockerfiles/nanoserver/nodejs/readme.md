@@ -12,9 +12,9 @@ This is a brief example on how the image is tagged and does not represent every 
 
 | Tag | OS Version | Nodejs Version | Dockerfile |
 | -- | -- | -- | -- |
-| [latest](https://hub.docker.com/r/kiazhi/nanoserver.mysql/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [10.3.0](https://nodejs.org/dist/v10.3.0/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/nodejs/10.x/Dockerfile) |
-| [sac2016-10.3.0](https://hub.docker.com/r/kiazhi/nanoserver.mysql/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [10.3.0](https://nodejs.org/dist/v10.3.0/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/nodejs/10.x/Dockerfile) |
-| [sac2016-8.11.2](https://hub.docker.com/r/kiazhi/nanoserver.mysql/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [8.11.2](https://nodejs.org/dist/v8.11.2/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/nodejs/8.x/Dockerfile) |
+| [latest](https://hub.docker.com/r/kiazhi/nanoserver.nodejs/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [10.3.0](https://nodejs.org/dist/v10.3.0/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/nodejs/10.x/Dockerfile) |
+| [sac2016-10.3.0](https://hub.docker.com/r/kiazhi/nanoserver.nodejs/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [10.3.0](https://nodejs.org/dist/v10.3.0/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/nodejs/10.x/Dockerfile) |
+| [sac2016-8.11.2](https://hub.docker.com/r/kiazhi/nanoserver.nodejs/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [8.11.2](https://nodejs.org/dist/v8.11.2/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/nodejs/8.x/Dockerfile) |
 
 # Getting Started with Nodejs on Nano Server
 
