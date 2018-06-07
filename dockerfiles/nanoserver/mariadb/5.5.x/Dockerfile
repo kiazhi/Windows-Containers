@@ -45,11 +45,6 @@ RUN \
         -Force \
         -Verbose ; \
     \
-#    New-Item \
-#        -Path $('C:\Program Files\MariaDB ' + $ENV:MARIADB_VERSION + '\data') \
-#        -ItemType Directory \
-#        -Verbose | Out-Null ; \
-    \
     Set-ItemProperty \
         -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment' \
         -Name 'Path' \
@@ -62,10 +57,6 @@ RUN \
         --version
 
 # Set up MySQL as a service
-#RUN \
-#    mysqld \
-#        --initialize-insecure
-
 RUN \
     mysqld \
         --install MariaDB
