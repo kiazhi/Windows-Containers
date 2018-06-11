@@ -10,9 +10,9 @@ LABEL \
     org.label-schema.maintainer.name="Ryen Kia Zhi Tang" \
     org.label-schema.vcs-url="https://github.com/kiazhi/Windows-Containers"\
     org.label-schema.docker.cmd="docker run --name $CONTAINER -t -d nanoserver.mongodb:latest" \
-    org.label-schema.docker.cmd.test="docker exec $CONTAINER node --version" \
+    org.label-schema.docker.cmd.test="docker exec $CONTAINER mongo --version" \
     org.label-schema.docker.cmd.debug="docker exec -it $CONTAINER powershell" \
-    org.label-schema.docker.docker.cmd.help="docker exec $CONTAINER node --help" \
+    org.label-schema.docker.docker.cmd.help="docker exec $CONTAINER mongo --help" \
     org.label-schema.docker.params="MONGODB_VERSION=version number"
 
 ARG MONGODB_VERSION=3.6.5
