@@ -10,9 +10,9 @@ LABEL \
     org.label-schema.maintainer.name="Ryen Kia Zhi Tang" \
     org.label-schema.vcs-url="https://github.com/kiazhi/Windows-Containers"\
     org.label-schema.docker.cmd="docker run --name $CONTAINER -t -d nanoserver.mysql:latest" \
-    org.label-schema.docker.cmd.test="docker exec $CONTAINER node --version" \
+    org.label-schema.docker.cmd.test="docker exec $CONTAINER mysql --version" \
     org.label-schema.docker.cmd.debug="docker exec -it $CONTAINER powershell" \
-    org.label-schema.docker.docker.cmd.help="docker exec $CONTAINER node --help" \
+    org.label-schema.docker.docker.cmd.help="docker exec $CONTAINER mysql --help" \
     org.label-schema.docker.params="MYSQL_VERSION=version number"
 
 ARG MYSQL_VERSION=5.7.22
