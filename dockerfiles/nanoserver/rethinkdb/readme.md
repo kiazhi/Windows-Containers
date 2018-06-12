@@ -12,8 +12,8 @@ This is a brief example on how the image is tagged and does not represent every 
 
 | Tag | OS Version | RethinkDB Version | Dockerfile |
 | -- | -- | -- | -- |
-| [latest](https://hub.docker.com/r/kiazhi/nanoserver.rethinkdb/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [2.3.6](https://download.rethinkdb.com/windows/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/sac2016/rethinkdb/2.3.x/Dockerfile) |
-| [sac2016-2.3.6](https://hub.docker.com/r/kiazhi/nanoserver.rethinkdb/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [2.3.6](https://download.rethinkdb.com/windows/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/sac2016/rethinkdb/2.3.x/Dockerfile) |
+| [latest](https://hub.docker.com/r/kiazhi/nanoserver.rethinkdb/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [2.3.6](https://download.rethinkdb.com/windows/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/rethinkdb/sac2016-2.3.6/Dockerfile) |
+| [sac2016-2.3.6](https://hub.docker.com/r/kiazhi/nanoserver.rethinkdb/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [2.3.6](https://download.rethinkdb.com/windows/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/rethinkdb/sac2016-2.3.6/Dockerfile) |
 
 
 # Getting Started with RethinkDB on Nano Server
