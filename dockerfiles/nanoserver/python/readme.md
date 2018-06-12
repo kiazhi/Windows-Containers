@@ -12,9 +12,9 @@ This is a brief example on how the image is tagged and does not represent every 
 
 | Tag | OS Version | Python Version | Dockerfile |
 | -- | -- | -- | -- |
-| [latest](https://hub.docker.com/r/kiazhi/nanoserver.python/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [3.6.5](https://www.python.org/downloads/release/python-365/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/sac2016/python/3.6.x/Dockerfile) |
-| [sac2016-3.6.5](https://hub.docker.com/r/kiazhi/nanoserver.python/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [3.6.5](https://www.python.org/downloads/release/python-365/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/sac2016/python/3.6.x/Dockerfile) |
-| [sac2016-3.5.4](https://hub.docker.com/r/kiazhi/nanoserver.python/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [3.5.4](https://www.python.org/downloads/release/python-354/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/sac2016/python/3.5.x/Dockerfile) |
+| [latest](https://hub.docker.com/r/kiazhi/nanoserver.python/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [3.6.5](https://www.python.org/downloads/release/python-365/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/python/sac2016-3.6.5/Dockerfile) |
+| [sac2016-3.6.5](https://hub.docker.com/r/kiazhi/nanoserver.python/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [3.6.5](https://www.python.org/downloads/release/python-365/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/python/sac2016-3.6.5/Dockerfile) |
+| [sac2016-3.5.4](https://hub.docker.com/r/kiazhi/nanoserver.python/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [3.5.4](https://www.python.org/downloads/release/python-354/) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/python/sac2016-3.5.4/Dockerfile) |
 
 
 # Getting Started with Python on Nano Server
