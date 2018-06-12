@@ -12,9 +12,9 @@ This is a brief example on how the image is tagged and does not represent every 
 
 | Tag | OS Version | MySQL Version | Dockerfile |
 | -- | -- | -- | -- |
-| [latest](https://hub.docker.com/r/kiazhi/nanoserver.mysql/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [8.0.11](https://dev.mysql.com/downloads/mysql/8.0.html) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/sac2016/mysql/8.0.x/Dockerfile) |
-| [sac2016-8.0.11](https://hub.docker.com/r/kiazhi/nanoserver.mysql/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [8.0.11](https://dev.mysql.com/downloads/mysql/8.0.html) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/sac2016/mysql/8.0.x/Dockerfile) |
-| [sac2016-5.7.22](https://hub.docker.com/r/kiazhi/nanoserver.mysql/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [5.7.22](https://dev.mysql.com/downloads/mysql/5.7.html) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/sac2016/mysql/5.7.x/Dockerfile) |
+| [latest](https://hub.docker.com/r/kiazhi/nanoserver.mysql/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [8.0.11](https://dev.mysql.com/downloads/mysql/8.0.html) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/mysql/sac2016-8.0.11/Dockerfile) |
+| [sac2016-8.0.11](https://hub.docker.com/r/kiazhi/nanoserver.mysql/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [8.0.11](https://dev.mysql.com/downloads/mysql/8.0.html) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/mysql/sac2016-8.0.11/Dockerfile) |
+| [sac2016-5.7.22](https://hub.docker.com/r/kiazhi/nanoserver.mysql/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [5.7.22](https://dev.mysql.com/downloads/mysql/5.7.html) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/mysql/sac2016-5.7.22/Dockerfile) |
 
 # Getting Started with MySQL on Nano Server
 
