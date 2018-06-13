@@ -15,11 +15,10 @@ LABEL \
     org.label-schema.docker.docker.cmd.help="docker exec $CONTAINER go help" \
     org.label-schema.docker.params="GOLANG_VERSION=version number"
 
-SHELL ["powershell", "-Command"]
-
 ARG GOLANG_VERSION=1.9.7
 
-# Download, extract and configure application binary
+SHELL ["powershell", "-Command"]
+
 RUN \
     if(!(Test-Path -Path 'C:\Temp')) \
     { \

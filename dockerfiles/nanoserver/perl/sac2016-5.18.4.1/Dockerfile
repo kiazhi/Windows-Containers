@@ -15,10 +15,10 @@ LABEL \
     org.label-schema.docker.docker.cmd.help="docker exec $CONTAINER perl -h" \
     org.label-schema.docker.params="PERL_VERSION=version number"
 
+ARG PERL_VERSION=5.18.4.1
+
 SHELL ["powershell", "-Command"]
 
-ARG PERL_VERSION=5.18.4.1
-# Download, extract and configure application binary
 RUN \
     if(!(Test-Path -Path 'C:\Temp')) \
     { \

@@ -15,11 +15,10 @@ LABEL \
     org.label-schema.docker.docker.cmd.help="docker exec $CONTAINER node --help" \
     org.label-schema.docker.params="NODEJS_VERSION=version number"
 
-SHELL ["powershell", "-Command"]
-
 ARG NODEJS_VERSION=v10.3.0
 
-# Download, extract and configure application binary
+SHELL ["powershell", "-Command"]
+
 RUN \
     if(!(Test-Path -Path 'C:\\Temp')) \
     { \
