@@ -41,6 +41,12 @@ RUN \
     \
     Set-ItemProperty \
         -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment' \
+        -Name 'JAVA_HOME' \
+        -Value $('C:\Program Files\Zulu\zulu10.1+11-jdk' + $ENV:OPENJDK_VERSION + '-win_x64') \
+        -Verbose ; \
+    \
+    Set-ItemProperty \
+        -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment' \
         -Name 'Path' \
         -Value $($ENV:Path + ';C:\Program Files\Zulu\zulu10.1+11-jdk' + $ENV:OPENJDK_VERSION + '-win_x64\bin') \
         -Verbose ;

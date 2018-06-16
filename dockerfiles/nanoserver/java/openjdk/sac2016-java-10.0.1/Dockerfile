@@ -52,6 +52,12 @@ RUN \
     \
     Set-ItemProperty \
         -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment' \
+        -Name 'JAVA_HOME' \
+        -Value $('C:\Program Files\Java\jdk-' + $ENV:OPENJDK_VERSION) \
+        -Verbose ; \
+    \
+    Set-ItemProperty \
+        -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment' \
         -Name 'Path' \
         -Value $($ENV:Path + ';C:\Program Files\Java\jdk-' + $ENV:OPENJDK_VERSION + '\bin') \
         -Verbose ;
