@@ -40,26 +40,26 @@ RUN \
         -Verbose ; \
     \
     (Get-Content \
-        -Path 'C:\Program Files\elasticsearch-6.2.4\config\jvm.options' \
+        -Path $($ENV:ProgramFiles + '\elasticsearch-' + $ENV:ELASTICSEARCH_VERSION + '\config\jvm.options') \
         -Verbose) \
             -replace '-Xms1g','-Xms200m' | Set-Content \
-                -Path 'C:\Program Files\elasticsearch-6.2.4\config\jvm.options' \
+                -Path $($ENV:ProgramFiles + '\elasticsearch-' + $ENV:ELASTICSEARCH_VERSION + '\config\jvm.options') \
                 -Verbose ; \
     \
     (Get-Content \
-        -Path 'C:\Program Files\elasticsearch-6.2.4\config\jvm.options' \
+        -Path $($ENV:ProgramFiles + '\elasticsearch-' + $ENV:ELASTICSEARCH_VERSION + '\config\jvm.options') \
         -Verbose) \
         -replace '-Xmx1g','-Xmx200m' | Set-Content \
-            -Path 'C:\Program Files\elasticsearch-6.2.4\config\jvm.options' \
+            -Path $($ENV:ProgramFiles + '\elasticsearch-' + $ENV:ELASTICSEARCH_VERSION + '\config\jvm.options') \
             -Verbose ; \
     \
     (Get-Content \
-        -Path 'C:\Program Files\elasticsearch-6.2.4\config\elasticsearch.yml' \
+        -Path $($ENV:ProgramFiles + '\elasticsearch-' + $ENV:ELASTICSEARCH_VERSION + '\config\elasticsearch.yml') \
         -Verbose) \
             -replace '#network.host: 192.168.0.1','network.host: 0.0.0.0' | Set-Content \
-                -Path 'C:\Program Files\elasticsearch-6.2.4\config\elasticsearch.yml' \
+                -Path $($ENV:ProgramFiles + '\elasticsearch-' + $ENV:ELASTICSEARCH_VERSION + '\config\elasticsearch.yml') \
                 -Verbose ; \
-        \
+    \
     Set-ItemProperty \
         -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment' \
         -Name 'ES_HOME' \
