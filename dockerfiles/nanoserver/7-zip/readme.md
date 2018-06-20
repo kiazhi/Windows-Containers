@@ -12,7 +12,7 @@ This is a brief example on how the image is tagged and does not represent every 
 
 | Tag | OS Version | 7-Zip Version | Dockerfile |
 | -- | -- | -- | -- |
-| [latest](https://hub.docker.com/r/kiazhi/nanoserver.rethinkdb/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [18.05](https://www.7-zip.org/download.html) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/rethinkdb/sac2016-18.05/Dockerfile) |
+| [latest](https://hub.docker.com/r/kiazhi/nanoserver.rethinkdb/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [18.05](https://www.7-zip.org/download.html) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/7-zip/sac2016-18.05/Dockerfile) |
 | [1709-18.05](https://hub.docker.com/r/kiazhi/nanoserver.rethinkdb/tags/) | [1709](https://hub.docker.com/r/microsoft/nanoserver/) | [18.05](https://www.7-zip.org/download.html) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/7-zip/1709-18.05/Dockerfile) |
 | [sac2016-18.05](https://hub.docker.com/r/kiazhi/nanoserver.rethinkdb/tags/) | [sac2016](https://hub.docker.com/r/microsoft/nanoserver/) | [18.05](https://www.7-zip.org/download.html) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/7-zip/sac2016-18.05/Dockerfile) |
 | [1709-16.04](https://hub.docker.com/r/kiazhi/nanoserver.rethinkdb/tags/) | [1709](https://hub.docker.com/r/microsoft/nanoserver/) | [16.04](https://www.7-zip.org/download.html) | [Dockerfile](https://github.com/kiazhi/Windows-Containers/tree/master/dockerfiles/nanoserver/7-zip/1709-16.04/Dockerfile) |
