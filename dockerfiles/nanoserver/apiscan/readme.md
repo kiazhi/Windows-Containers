@@ -56,6 +56,7 @@ This is a brief example on how the image is tagged and does not represent every 
 
     ```shell
     exit
+    
     ```
 
 - Step 6 - Copy files that will be assessed by NanoServerApiScan within the container interactively:
