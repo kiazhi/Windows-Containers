@@ -1,3 +1,7 @@
+<!-- Docker Hub Stars and Pulls Counter -->
+![Docker Stars](https://img.shields.io/docker/stars/kiazhi/nanoserver.7-zip.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/kiazhi/nanoserver.7-zip.svg)
+<!-- Docker Hub Stars and Pulls Counter -->
+
 # What is Nano Server?
 
 Windows Server 2016 offers a new installation option: Nano Server. Nano Server is a remotely administered server operating system optimized for private clouds and datacenters. It is similar to Windows Server in Server Core mode, but significantly smaller, has no local logon capability, and only supports 64-bit applications, tools, and agents. It takes up far less disk space, sets up significantly faster, and requires far fewer updates and restarts than Windows Server. When it does restart, it restarts much faster. For more details, follow this [link](https://docs.microsoft.com/en-us/windows-server/get-started/getting-started-with-nano-server).
